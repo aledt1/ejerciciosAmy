@@ -1,0 +1,123 @@
+<!DOCTYPE html> <!--tipo de documento-->
+<html lang="es"> <!--espanol-->
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/style.css"> <!--para refenciar un archivo css-->
+        <title> Introduccion a HTML </title> 
+    </head>
+    <body>
+        <header> <!--encabezado de la pagina-->
+            <nav> <!--añade una lista de menu de navegacion interactivos-->
+                <a href="https://www.facebook.com/">Inicio</a> <!--# elemento vacio-->
+                <a href="#">Acerca de Nosotros</a> 
+                <a href="./pages/contactanos.html">Contáctanos</a> <!--con la extencion ./ se puede hacer referencia a otro archivo html-->
+                <a href="#">Productos</a>
+            </nav>
+        </header>
+        <section>
+            <h1>Título </h1>
+            <h2>Subtítulo</h2>
+            <h3>Artículo</h3>
+            <article>
+                <img src="https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-chorizo-jamon-y-queso-1080x671.jpg" alt="" width="500px" height="259px"> <!--lorem texto muestra usar formatos png-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sint similique at explicabo quo nulla quia veniam vel maxime temporibus perspiciatis sunt ipsam deleniti tenetur mollitia amet? Aperiam, eaque praesentium.</p>
+            </article> <!--Entrada-->
+            <h3>Artículo 2</h3>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ad fuga consectetur, exercitationem facilis inventore iusto veritatis at numquam laboriosam placeat commodi expedita mollitia sunt! Velit voluptatibus cupiditate reprehenderit beatae!</p>
+            </article>
+            <h3>Artículo 3</h3>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In earum ea iste quidem incidunt, architecto, odit voluptatum, consequatur qui facilis consectetur nostrum molestias cumque natus quis nesciunt fuga! Voluptas, eius!</p>
+            </article> 
+        </section>
+        <br>
+        <br>
+        <aside>
+            <div id="perro"> <!--para añadir un elemento unico y separado es un bloque de contenido-->
+                <h1>Lorem, ipsum.</h1>
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <img src="https://pbs.twimg.com/media/FXkEiycUYAEmgDa.jpg" alt="" width="330px">
+                <img src="https://pbs.twimg.com/media/FTxtsr2VIAEdafw.jpg" alt="" width="330px">
+            </div>
+        </aside>
+        <div class="listas">
+            <ol type="i">
+                <li>Alex</li>
+                <li>Mafer</li>
+                <li>Keila</li>
+                <li>Oso</li>
+                <li>Sofia</li>
+            </ol>
+            <br>
+            <ul>
+                <li>Pitsa</li>
+                <li>anvorgesa</li>
+                <li>sopita</li>
+                <li>papitas</li>
+                <li>chetos</li>
+            </ul>
+        </div>
+        <hr>
+        <table border="2">
+            <th>encabezado de tabla</th>
+            <tr>
+                <td>Azul</td>
+                <td>rojo</td>
+                <td>negro</td>
+            </tr>
+            <caption>tablitas uwu</caption>
+        </table>
+        <hr>
+        <h1>Formulario</h1>
+        <form id="form-order"> <!--formularios-->
+            <h3>Datos personales</h3>
+            <label for="name">Nombre</label> <!--for es un identificador-->
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="email">Tu correo</label>
+            <input type="email" name="email">
+            <br>
+            <label for="passwd">Contraseña pitera</label>
+            <input type="password" name="passwd" id="passwd" required>
+            <br>
+            <hr>
+            <h3>último grado de estudios</h3>
+            <label for=""></label>
+                <input type="checkbox" name="" id="">Universidad
+            <label for=""></label>
+                <input type="checkbox" name="" id="">Preparatoria
+            <label for=""></label>
+                <input type="checkbox" name="" id="">Secundaria
+            <hr>
+            <h3>Documentos</h3>
+            <label for="">INE
+                <input type="file"> <!--podemos subir un archivo-->
+            </label>
+            <br>
+            <label for="">Comprobante de domicilio
+                <input type="file"/>
+            </label>
+            <br/>
+            <label for="">recibo pago
+                <input type="file">
+            </label>
+            <hr/>
+            <h3>Selecciona tu principal interés</h3>
+            <select name="comida" id="name">
+                <option value="">pitsa</option>
+                <option value="">taquitos</option>
+                <option value="">torta</option>
+            </select>
+            <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea> <!--añade un cuadro de texto-->
+            <br>
+            <input type="submit" value="Enviar formulario"> <!--añade un boton de enviar-->
+        </form>
+        <img src="C:\Users\ale_d\Desktop" alt="">
+        <footer>
+            <a href="http://facebook.com/" id="evy">sigue nuesrtas redes</a>
+        </footer>
+    </body>
+</html>

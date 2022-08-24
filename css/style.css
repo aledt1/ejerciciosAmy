@@ -1,0 +1,19 @@
+*{margin: auto; padding: 0%;} /* modelo de cajas */
+body{background-image: url(https://www.todofondos.net/wp-content/uploads/fondos-de-colores-minimalistas-top-gratis-de-colores-minimalistas.-fondo-de-pantalla-hd-1080p-de-colores.png);}
+nav{background-color: azure;}
+a{color: black; text-decoration: none; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: xx-large;}
+nav a:link, a:visited{color: blue;}
+nav a:hover a:active{color: brown;} /* resalta una seleccion de enlace*/
+ /* section*/
+section{width: 75%; background-color: antiquewhite; float: left;}
+section h1{text-align: center; padding: 10px; color: maroon; font-size: 50px; font-family: Arial, Helvetica, sans-serif;}
+section h2{text-align: center; padding: 5px; color: blueviolet; font-size: 25px;}
+section h3{text-align: center; padding: 5px; color: honeydew; font-size: 20px;}
+article{margin: auto; padding: 10px; background-color: chartreuse; border: 10px double black;}
+aside{background-color: blueviolet;}
+/*selectores con class y id*/
+.listas{background-color: darkgrey; float: left; padding: 10px; width: auto;} /* class = varios elementos*/
+#perro{color: darkgreen;} /* i = solo elemento*/
+footer{margin: auto; padding: 10px; background-color: blanchedalmond; border: 10px; clear: both;}
+#evy{color: black;}
+#evy:hover{color: aqua;}
